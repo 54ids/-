@@ -19,12 +19,7 @@ using namespace std;
 uint mode = 1;
 bool showph = 0;
 bool gray_mode = 1;//1灰度模式，0彩图模式
-//#define address "C:/Users/liquanquan/Desktop/2024_04_19_19_14_36_Vedio.mp4"
-#define address "C:/Users/liquanquan/OneDrive/Desktop/5月图片/2024_04_19_17_12_17_Vedio.mp4"
-//char address[] = "C:/Users/liquanquan/Desktop/5月图片/2024_04_19_17_12_17_Vedio.mp4";
-//char address[] = "C:/Users/liquanquan/Desktop/2024_07_04_09_31_49_Vedio.mp4";
-//char address[] = "C:/Users/liquanquan/Desktop/2024_07_24_13_41_54_Vedio.mp4";
-//char address[] = "C:/Users/liquanquan/Desktop/5月图片/2024_04_19_17_12_17_Vedio.mp4";
+#define address "C:/Users/用户名/OneDrive/Desktop/5月图片/2024_04_19_17_12_17_Vedio.mp4"
 int sum_fp = -1;//设定总帧数，避免不必要的帧
 int L_black[120]={0}, R_black[120], M_black[120];
 uint scc8660_image[120][160] = {0};  //图像原始数据
